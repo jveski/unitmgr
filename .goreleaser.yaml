@@ -1,11 +1,11 @@
 builds:
-    env:
+    - env:
       - CGO_ENABLED=0
 
-    goos:
-      - linux
+      goos:
+        - linux
 
-    goarch:
-      - amd64
-      - arm
-      - arm64
+      goarch:
+        - amd64
+        - arm
+        - arm64
