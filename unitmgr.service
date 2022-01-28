@@ -1,0 +1,9 @@
+[Unit]
+Description=Systemd unit manager
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/unitmgr -src /opt/units
+
+[Install]
+WantedBy=multi-user.target
